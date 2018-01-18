@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">SearchPlus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_account_password_hint">系统检测到您没有录入学号（要使用本页面的功能，必须录入学号），是否录入？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="hint">提示</string>
+    <string name="account_lower_than_10">账号小于10位！</string>
+    <string name="address_closed">哎呀，教务处服务器暂时关闭了连接，稍后再试吧!</string>
+    <string name="input_correct_account_and_password">请确认输入了正确的账号和密码！</string>
+    <string name="on_checking_account">正在验证账号和密码…</string>
+    <string name="grade_search">成绩查询</string>
+    <string name="account">学号：</string>
+    <string name="grade">学业成绩：</string>
+    <string name="pass">通过</string>
+    <string name="not_pass">挂科</string>
+    <string name="one_key_assess">一键评教</string>
+    <string name="account_manage">账号管理</string>
+    <string name="is_need_assess">系统检测到您未进行考评，是否进入一键考评页面？</string>
+    <string name="not_have_your_grade">对不起，未查询到您的成绩记录！</string>
+    <string name="grade_list">成绩单</string>
+    <string name="is_get_data">获取数据中…</string>
+    <string name="function_closed">对不起，教务处暂时关闭了本功能！</string>
+    <string name="is_init">系统正在初始化…</string>
+    <string name="get_cookie_success">获取Cookie成功！</string>
+    <string name="init_success">初始化完成！</string>
+    <string name="is_checking">正在检查…</string>
+    <string name="switch_success">切换成功！</string>
+    <string name="error_in_login">在尝试登录时出错！</string>
+    <string name="error_in_lode_image">在获取验证码时出错！</string>
+    <string name="not_get_your_independent_credit">对比起，未查询到您的自主学分记录！</string>
+    <string name="not_get_your_any_credit">您还没有获得任何自主学分（自主学分包括英语四六级、计算机二级、各种学科竞赛等获得的学分）</string>
+    <string name="show_user_name">show user name</string>
+    <string name="save_data">not save data</string>
+    <string name="select_duration">select duration</string>
+    <string name="per">每次</string>
+    <string name="ten_minute">10分钟</string>
+    <string name="twenty_minute">20分钟</string>
+    <string name="thirty_minute">30分钟</string>
+    <string name="one_hour">1小时</string>
+    <string name="two_hour">2小时</string>
+    <string name="three_hour">3小时</string>
+    <string-array name="select_login_duration">
+        <item>每次</item>
+        <item>10分钟</item>
+        <item>20分钟</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+        <item>2小时</item>
+        <item>3小时</item>
+    </string-array>
+</resources>

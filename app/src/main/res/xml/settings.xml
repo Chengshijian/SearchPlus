@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="基本设置">
+
+        <SwitchPreference
+            android:checked="true"
+            android:defaultValue="true"
+            android:key="@string/show_user_name"
+            android:order="0"
+            android:summary="开启后会在首页显示用户名"
+            android:title="首页显示用户名"/>
+        <SwitchPreference
+            android:checked="true"
+            android:defaultValue="true"
+            android:key="@string/save_data"
+            android:order="1"
+            android:summary="系统会自动保存您所添加的账号至本地数据库"
+            android:title="保存账号信息"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="其他">
+        <ListPreference
+            android:defaultValue="纯文本"
+            android:dialogTitle="天气分享形式"
+            android:entries="@array/select_login_duration"
+            android:entryValues="@array/select_login_duration"
+            android:key="@string/select_duration"
+            android:order="2"
+            android:summary="30分钟"
+            android:title="自动登录间隔"/>
+        <Preference
+            android:key=""
+            android:order="4"
+            android:title="版本号"
+            android:summary="V1.0.0"/>
+    </PreferenceCategory>
+</PreferenceScreen>

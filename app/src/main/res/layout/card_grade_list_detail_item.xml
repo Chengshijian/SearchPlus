@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/time"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2015-2016学年第一学期"
+            android:layout_weight="2"/>
+        <TextView
+
+            android:id="@+id/cname"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="大学外语1"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/ctype"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="必修课"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/ctime"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="48"
+            android:layout_weight="0.5"/>
+
+        <TextView
+            android:id="@+id/credit"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_weight="0.5"/>
+
+        <TextView
+            android:id="@+id/grade"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="84"
+            android:layout_weight="0.5"/>
+
+        <TextView
+            android:id="@+id/gpa"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="6.8"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
