@@ -41,7 +41,15 @@ Download the apk file
 Thanks to the open source project
 --
 
-* 56456456
+* [BoomMenu](https://github.com/Nightonke/BoomMenu)
+* [logger](https://github.com/orhanobut/logger)
+* [RxPermissions](https://github.com/tbruyelle/RxPermissions)
+* [CircleProgress](https://github.com/lzyzsd/CircleProgress)
+* [SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView)
+* [LitePal](https://github.com/LitePalFramework/LitePal)
+* [FABProgressCircle](https://github.com/JorgeCastilloPrz/FABProgressCircle)
+* [okhttputils](https://github.com/hongyangAndroid/okhttputils)
+* [okhttp](https://github.com/square/okhttp)
 
 
 
