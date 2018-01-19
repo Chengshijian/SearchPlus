@@ -51,6 +51,11 @@ Thanks to the open source project
 * [okhttputils](https://github.com/hongyangAndroid/okhttputils)
 * [okhttp](https://github.com/square/okhttp)
 
+About Author
+--
+[CSDN博客](http://blog.csdn.net/chengshijian2015)
+[微博](https://weibo.com/u/1843700133)
+
 License
 --
 
