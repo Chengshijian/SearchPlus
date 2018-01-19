@@ -10,7 +10,13 @@ Introduction
     
 Screenshots
 -
-<figure class="">
+
+.one{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+<figure class="one">
  <src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133620.png"/>
  <src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133624.png"/>
  </figure>
