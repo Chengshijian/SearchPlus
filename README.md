@@ -10,3 +10,5 @@ Introduction
     
 Screenshots
 -
+
+![主页面](https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133620.png)
