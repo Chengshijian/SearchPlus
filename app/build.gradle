@@ -31,7 +31,6 @@ dependencies {
     implementation 'com.orhanobut:logger:1.15'
     implementation 'com.android.support:cardview-v7:26.0.0-beta1'
     implementation files('libs/Volley.jar')
-    implementation 'com.robinhood.ticker:ticker:1.2.0'
     implementation 'org.jsoup:jsoup:1.10.2'
     implementation 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
     implementation 'org.litepal.android:core:1.6.1'

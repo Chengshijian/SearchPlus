@@ -45,18 +45,6 @@ public class AboutActivity extends BaseActivity implements View.OnClickListener,
         setActionBarTitle("关于" + getString(R.string.app_name));
         transparentNavigationBar();
         mVersionTv.setText(BuildConfig.VERSION_NAME);
-
-        new RxPermissions(this)
-                .request(Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                .subscribe(new Action1<Boolean>() {
-                    @Override
-                    public void call(Boolean aBoolean) {
-                        if(aBoolean){
-                            LoginUtil.getValidSchoolAccount();
-                        }
-                    }
-                });
-
     }
 
     @Override
