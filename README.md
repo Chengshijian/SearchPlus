@@ -33,6 +33,9 @@ Screenshots
  <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133805.png" width="250">
 </div>
 
+Download the apk file
+--
+
 Thanks to the open source project
 --
 
