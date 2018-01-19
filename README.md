@@ -1,6 +1,8 @@
 SearchPlus
 ==
 
+开源让编程更加快乐
+
 Introduction
 -
 
