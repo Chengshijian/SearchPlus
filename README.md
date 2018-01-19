@@ -1,6 +1,8 @@
 SearchPlus
 ==
 
+开源让编程更加快乐
+
 Introduction
 -
 
@@ -29,8 +31,46 @@ Screenshots
  <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133727.png" width="250">
  <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133749.png" width="250">
  <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133757.png" width="250">
+ <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-150931.png" width="250">
  <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133805.png" width="250">
- <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-134009.png" width="250">
 </div>
+
+Download the apk file
+--
+
+[SearchPlus.apk](http://fir.im/SearchPlus)
+
+Thanks to the open source project
+--
+
+* [BoomMenu](https://github.com/Nightonke/BoomMenu)
+* [logger](https://github.com/orhanobut/logger)
+* [RxPermissions](https://github.com/tbruyelle/RxPermissions)
+* [CircleProgress](https://github.com/lzyzsd/CircleProgress)
+* [SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView)
+* [LitePal](https://github.com/LitePalFramework/LitePal)
+* [FABProgressCircle](https://github.com/JorgeCastilloPrz/FABProgressCircle)
+* [okhttputils](https://github.com/hongyangAndroid/okhttputils)
+* [okhttp](https://github.com/square/okhttp)
+
+About author
+--
+* [CSDN博客](http://blog.csdn.net/chengshijian2015)
+* [微博](https://weibo.com/u/1843700133)
+
+License
+--
+
+>Licensed under the Apache License, Version 2.0 (the "License");
+>you may not use this file except in compliance with the License.
+>You may obtain a copy of the License at
+>
+>   http://www.apache.org/licenses/LICENSE-2.0
+>
+>Unless required by applicable law or agreed to in writing, software
+>distributed under the License is distributed on an "AS IS" BASIS,
+>WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+>See the License for the specific language governing permissions and
+>limitations under the License.
 
 
