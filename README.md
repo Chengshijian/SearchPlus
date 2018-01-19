@@ -14,11 +14,3 @@ Screenshots
  <src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133620.png" width="100">
  <src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133624.png" width="100">
  </figure>
- 
- <figure class="third">
-    <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133620.png">
-    <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133620.png">
-    <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133620.png">
-</figure>
-![主页面](https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133620.png)
-![侧滑](https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133624.png)
