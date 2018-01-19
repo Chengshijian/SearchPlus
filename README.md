@@ -36,6 +36,8 @@ Screenshots
 Download the apk file
 --
 
+[fir](http://fir.im/SearchPlus)
+
 Thanks to the open source project
 --
 
