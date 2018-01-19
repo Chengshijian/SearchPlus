@@ -12,7 +12,7 @@ Screenshots
 -
 
 
-<div style="float:left;border:solid 1px 000;margin:2px;">
+<div style="float:center;border:solid 1px 000;margin:4px;">
  <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133620.png" width="400" >
  <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133624.png" width="400">
 </div>
