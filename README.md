@@ -11,6 +11,7 @@ Introduction
     apk文件已托管到fir.im免费应用内测托管平台,实现了自动检测软件更新。项目中用到了很多github上优秀的开源框架，非常感谢开源的作者们。
     </br>
     LoginUtil.java文件里有一个getValidSchoolAccount()方法可以获得2001届至2017届未修改账号密码的学生的学号并将结果保存至手机根目录的accounts.txt文件中（这个方法会将所有可能的账号逐个尝试登录，成功则写入accounts.txt文件，时间较长），利用里面的账号即可登录（账号和密码相同），要想获得这些账号可通过调用一下代码获得：
+    
     ```
        new RxPermissions(this)
                 .request(Manifest.permission.WRITE_EXTERNAL_STORAGE)
@@ -24,6 +25,7 @@ Introduction
                 });
     
     ```
+    
 Screenshots
 -
 
