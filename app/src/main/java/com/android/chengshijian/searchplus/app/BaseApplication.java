@@ -2,6 +2,7 @@ package com.android.chengshijian.searchplus.app;
 
 import android.app.Application;
 import android.content.Context;
+import android.os.Environment;
 
 import com.android.chengshijian.searchplus.MainActivity;
 import com.android.chengshijian.searchplus.listener.OnCheckUpdateListener;
@@ -15,6 +16,10 @@ import com.android.chengshijian.searchplus.view.IApplication;
 import com.orhanobut.logger.Logger;
 
 import org.litepal.LitePal;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 import cn.bmob.v3.Bmob;
 import cn.bmob.v3.BmobConfig;

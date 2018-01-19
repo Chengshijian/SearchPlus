@@ -286,6 +286,7 @@ public class GradeQueryUtil {
         Elements elements4 = elements3.get(1).getElementsByTag("tbody");
         Elements elements5 = elements4.get(0).getElementsByTag("td");
         GradeListTitle title = new GradeListTitle();
+
         title.setAccount(elements5.get(0).text().split("：")[1]);
         title.setName(elements5.get(1).text().split("：")[1]);
         title.setEnterTime(elements5.get(2).text().split("：")[1]);
@@ -293,8 +294,11 @@ public class GradeQueryUtil {
         Elements elements6 = elements3.get(2).getElementsByTag("tbody");
         Elements elements7 = elements6.get(0).getElementsByTag("td");
         title.setDepart(elements7.get(0).text().split("：")[1]);
-        title.setMajor(elements7.get(1).text().split("：")[1]);
-        title.setClassB(elements7.get(2).text().split("：")[1]);
+        if(elements7.get(1).text().split("：").length!=1&&elements7.get(2).text().split("：").length!=1) {
+            title.setMajor(elements7.get(1).text().split("：")[1]);
+            title.setClassB(elements7.get(2).text().split("：")[1]);
+        }
+
 
 
         return title;

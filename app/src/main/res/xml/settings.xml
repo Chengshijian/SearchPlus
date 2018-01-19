@@ -16,8 +16,8 @@
             android:defaultValue="true"
             android:key="@string/save_data"
             android:order="1"
-            android:summary="系统会自动保存您所添加的账号至本地数据库"
-            android:title="保存账号信息"/>
+            android:summary="系统会自动保存您的数据至本地数据库"
+            android:title="保存用户数据"/>
 
     </PreferenceCategory>
 
@@ -31,11 +31,6 @@
             android:key="@string/select_duration"
             android:order="2"
             android:summary="30分钟"
-            android:title="自动登录间隔"/>
-        <Preference
-            android:key=""
-            android:order="4"
-            android:title="版本号"
-            android:summary="V1.0.0"/>
+            android:title="自动登录学号时间间隔"/>
     </PreferenceCategory>
 </PreferenceScreen>

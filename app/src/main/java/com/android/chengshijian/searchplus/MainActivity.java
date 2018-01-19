@@ -57,6 +57,9 @@ import com.nightonke.boommenu.BoomMenuButton;
 import com.orhanobut.logger.Logger;
 import com.tbruyelle.rxpermissions.RxPermissions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import okhttp3.Call;
 import rx.functions.Action1;
 
@@ -636,7 +639,7 @@ public class MainActivity extends BaseActivity
                             .setMessage(
                                     "发现新版本" + result.getVersionShort() + "是否更新?\n"
                                             + result.getChangelog()
-                                            + "\n版本大小："
+                                            + "\n软件大小："
                                             + SizeUtil.B2M(
                                             result.getBinary()
                                                     .getFsize()
@@ -655,6 +658,6 @@ public class MainActivity extends BaseActivity
 
     @Override
     public void onError(Call call, Exception e, int id) {
-
+        ToastUtil.showShortToast("检查更新失败！\n"+call.toString());
     }
 }

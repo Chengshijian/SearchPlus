@@ -26,10 +26,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:text="@string/app_name"/>
+                android:text="@string/app_name"
+                android:textSize="24sp"/>
 
             <TextView
+                android:id="@+id/version"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="V 1.0"/>
@@ -40,56 +41,57 @@
         <android.support.v7.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="2dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp">
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="2dp">
 
             <TextView
                 android:id="@+id/app_about_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
-                android:textColor="@color/primary_text"
-                android:text="rewewewerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrerewrwerwerewrwerewrwerwerwer\nrwerwerwn\nrewewrew\bfewfrewrewrew\newrewrwer\nwerwn\">
-
+                android:text="@string/about"
+                android:textColor="@color/primary_text">
             </TextView>
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="2dp"
-        android:layout_margin="8dp">
-
-        <TextView
             android:id="@+id/update"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="12dp"
-            android:textColor="@color/primary_text"
-            android:text="新版更新"/>
-
-    </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_margin="8dp"
             app:cardCornerRadius="2dp">
 
             <TextView
-                android:id="@+id/contact_author"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="12dp"
-                android:textColor="@color/primary_text"
-                android:text="联系作者"/>
+                android:layout_marginTop="16dp"
+                android:text="新版更新"
+                android:textColor="@color/primary_text"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/project_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="16dp"
+                android:text="项目地址"
+                android:textColor="@color/primary_text"/>
 
         </android.support.v7.widget.CardView>
 

@@ -6,23 +6,20 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_login"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_login"
             android:title="登录"/>
         <item
             android:id="@+id/nav_account_manage"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_account_manage"
             android:title="账号管理"/>
         <item
             android:id="@+id/nav_history_record"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_history_record"
             android:title="历史记录"/>
-
         <item
             android:id="@+id/nav_favorite"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_my_favorite"
             android:title="我的收藏"/>
-
-
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_menu_manage"

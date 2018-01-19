@@ -29,6 +29,8 @@ public class Constant {
     public static final String SELECT_DURATION="select_duration";
     public static final String LONG_BLANK="               ";
     public static final String NOT_HAVE_AUTHORITY="用户已登录但没该操作权限  如需继续操作请联系管理员并重试";
+    //项目github地址
+    public static final String PROJECT_URL="https://github.com/Chengshijian/SearchPlus";
     //cookie获取时的时间
     public static final String COOKIE_GET_TIME = "cookie_get_time";
     //
@@ -36,7 +38,7 @@ public class Constant {
     //
     public static final String APP_ID="f2bb0a382cdd77598f1896f96c887df2";
     //检查更新的网址
-    public static final String UPDATE_URL="http://api.fir.im/apps/latest/5a605d2f959d694eec000032";
+    public static final String UPDATE_URL="http://api.fir.im/apps/latest/5a60aba4ca87a862e07da2ec";
     //
     public static final String TERM_QUERY_URL = "http://202.118.120.84:" + port() + "/ACTIONQUERYSTUDENTSCORE.APPPROCESS";
     //
@@ -67,6 +69,7 @@ public class Constant {
     //个人信息URL
     public static final String PERSONAL_INFO_URL = "http://202.118.120.84:" + port() + "/ACTIONFINDSTUDENTINFO.APPPROCESS?mode=1&showMsg=";
     public static final String QUERY_GRADES_RESULT_REQUEST_URL = "http://202.118.120.84:" + port() + "/ACTIONQUERYSTUDENTSCORE.APPPROCESS";
+    //验证码
     public static final String IDENTIFYING_CODE_REQUEST_URL = "http://202.118.120.84:" + port() + "/ACTIONVALIDATERANDOMPICTURE.APPPROCESS";
 
     private static String port() {
