@@ -1,7 +1,7 @@
 SearchPlus
 ==
 
-开源让编程更加快乐
+开源让编程更快乐
 
 Introduction
 -
