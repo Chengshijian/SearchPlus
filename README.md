@@ -53,8 +53,8 @@ Thanks to the open source project
 
 About Author
 --
-[CSDN博客](http://blog.csdn.net/chengshijian2015)
-[微博](https://weibo.com/u/1843700133)
+* [CSDN博客](http://blog.csdn.net/chengshijian2015)
+* [微博](https://weibo.com/u/1843700133)
 
 License
 --
