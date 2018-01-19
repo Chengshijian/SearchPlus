@@ -13,9 +13,9 @@ Screenshots
 
 
 <div >
- <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133620.png" width="33%">
- <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133624.png" width="33%">
-  <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133630.png" width="33%">
+ <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133620.png" width="250">
+ <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133624.png" width="250">
+  <img src="https://github.com/Chengshijian/SearchPlus/blob/master/screenshots/Screenshot_20180119-133630.png" width="250">
 
 </div>
 
