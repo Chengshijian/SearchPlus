@@ -65,7 +65,7 @@ Thanks to the open source project
 * [CircleProgress](https://github.com/lzyzsd/CircleProgress)（一款非常棒的环形进度条）
 * [SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView)（一个对谷歌官方RecyclerView拓展很棒的库）
 * [LitePal](https://github.com/LitePalFramework/LitePal)（郭霖郭大神的SQLite数据库操纵框架）
-* [FABProgressCircle](https://github.com/JorgeCastilloPrz/FABProgressCircle)（包裹在谷歌官方FloatingActionButton的一款炫酷的进度条）
+* [FABProgressCircle](https://github.com/JorgeCastilloPrz/FABProgressCircle)（包裹谷歌官方FloatingActionButton的一款炫酷的进度条）
 * [okhttputils](https://github.com/hongyangAndroid/okhttputils)（一款非常棒的对okhttp封装的库）
 * [okhttp](https://github.com/square/okhttp)（出色的网络请求框架）
 
