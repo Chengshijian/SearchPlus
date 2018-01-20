@@ -13,7 +13,7 @@ Introduction
 How to get the test account?
 --
 
-    LoginUtil.java文件里有一个getValidSchoolAccount()方法可以获得2001届至2017届未修改账号密码的学生的学号并将结果保存至手机根目录的account.txt（由于隐私问题这个文件我没有上传））文     件中（这个方法会将所有可能的账号逐个尝试登录，成功则写入account.txt文件，时间较长），利用里面的账号即可登录（账号和密码相同），要想获得这些账号    ，可通过调用以下代码获得：
+    LoginUtil.java文件里有一个getValidSchoolAccount()方法可以获得2001届至2017届未修改账号密码的学生的学号并将结果保存至手机根目录的account.txt文     件中（这个方法会将所有可能的账号逐个尝试登录，成功则写入account.txt文件，时间较长），由于隐私问题这个文件我没有上传，利用里面的账号即可登录（账号和密码相同），要想获得这些账号，可通过调用以下代码获得：
  
        new RxPermissions(this)
                 .request(Manifest.permission.WRITE_EXTERNAL_STORAGE)
